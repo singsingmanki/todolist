@@ -1,17 +1,68 @@
-div{
-    padding:5px;
+body{
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my{
+    padding:20px 20px 0px 20px;
     border-radius: 10px;
-    height:50px;
-    width:100px;
+    height:100px;
+    width:43%;
     background-color:yellowgreen;
-    margin:5px;
+    margin:20px;
     font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px black;
+    
 
 }
 
 #xyz{
  display:flex;
  flex-wrap:wrap;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: large;
 
 }
 
+
+.task{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+#myBtn{
+    width: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+#myBtn:hover{
+    background-color: blue;
+}
+
+.button{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: large;
+}
+
+.button:hover{
+    background-color: blue;
+}
