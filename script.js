@@ -8,7 +8,13 @@ function myFunction() {
 
 
 
+  let button = document.createElement("button")
+  button.classList.add("button")
+  button.innerText = "X"
+
+
   let para = document.createElement("div");
+  para.classList.add("my");
 
   let name1 = document.getElementById("lname").value
 
@@ -20,11 +26,11 @@ function myFunction() {
   
 
  
-     document.getElementById("xyz").appendChild(para);
+     document.getElementById("xyz").appendChild(para).appendChild(button)
 
 
      
-para.addEventListener("click", removeFunction);
+button.addEventListener("click", removeFunction);
 
 function removeFunction(){
   document.getElementById("xyz").removeChild(para);
